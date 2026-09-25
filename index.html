@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adilla Nazhril Ahmad — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+  <div class="nav-inner">
+    <a href="#home" class="logo">ARIL<span>ZZZ.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <label for="nav-toggle" class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1 class="hero-name">Adilla Nazhril<br>Ahmad</h1>
+      <p class="hero-role">SMK Student &nbsp;|&nbsp; Web Developer &nbsp;|&nbsp; Tech Enthusiast</p>
+      <p class="hero-desc">Saya adalah siswa SMK jurusan Teknik Jaringan Komputer dan Telekomunikasi yang memiliki ketertarikan pada software development, web development, backend, database, dan teknologi.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Lihat Project Saya <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+      </div>
+      <div class="hero-socials">
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="code-card">
+        <div class="code-card-top">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="code-card-title">portfolio.js</span>
+        </div>
+        <div class="code-card-body">
+<pre><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">"Adilla Nazhril Ahmad"</span>,
+  <span class="c-prop">role</span>: <span class="c-str">"Web Developer"</span>,
+  <span class="c-prop">status</span>: <span class="c-str">"SMK Student"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"Laravel"</span>, <span class="c-str">"Vue"</span>,
+           <span class="c-str">"Node.js"</span>, <span class="c-str">"MySQL"</span>],
+  <span class="c-prop">learning</span>: <span class="c-key">true</span>,
+};
+
+<span class="c-fn">buildFuture</span>(developer);</pre>
+        </div>
+      </div>
+      <div class="floating-badge badge-1"><i class="fa-solid fa-code-branch"></i> Keep Building</div>
+      <div class="floating-badge badge-2"><i class="fa-solid fa-graduation-cap"></i> Keep Learning</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down">
+    <span>Scroll Down</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-text reveal">
+      <p class="label">Tentang Saya</p>
+      <h2 class="section-title">Siswa SMK yang membangun kemampuan lewat project nyata.</h2>
+      <p class="body-text">
+        Saya Adilla Nazhril Ahmad, siswa SMK jurusan Teknik Jaringan Komputer dan Telekomunikasi (TJKT).
+        Saya tertarik pada pengembangan web, jaringan komputer, mikrokontroler, dan teknologi pada umumnya.
+      </p>
+      <p class="body-text">
+        Saya senang mempelajari hal baru, mengerjakan project secara mandiri, dan mencoba membangun solusi
+        digital yang bisa bermanfaat — mulai dari web development, backend, database, API, hingga IoT dan
+        embedded system.
+      </p>
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Years Learning</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Learning &amp; Building</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual reveal">
+      <div class="about-frame">
+        <div class="about-frame-glow"></div>
+      </div>
+      <div class="about-focus-card">
+        <p class="focus-label">Focus</p>
+        <p class="focus-title">Web Development</p>
+        <ul>
+          <li>Networking</li>
+          <li>Embedded System</li>
+          <li>and more...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <p class="label">Skill &amp; Tools</p>
+      <h2 class="section-title">Teknologi yang saya pelajari dan gunakan.</h2>
+      <p class="body-text">Beberapa teknologi yang saya pelajari dan gunakan dalam project saya, dikelompokkan berdasarkan area penggunaannya.</p>
+    </div>
+
+    <div class="skill-groups">
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title">Frontend</h3>
+        <div class="skill-grid">
+          <div class="skill-chip"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-vuejs"></i><span>Vue.js</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-wind"></i><span>Tailwind CSS</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title">Backend</h3>
+        <div class="skill-grid">
+          <div class="skill-chip"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-fire"></i><span>Laravel</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-server"></i><span>Express.js</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-diagram-project"></i><span>REST API</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title">Database</h3>
+        <div class="skill-grid">
+          <div class="skill-chip"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-elephant"></i><span>PostgreSQL</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-bolt"></i><span>Supabase</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <h3 class="skill-group-title">Other</h3>
+        <div class="skill-grid">
+          <div class="skill-chip"><i class="fa-solid fa-hashtag"></i><span>C#</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+          <div class="skill-chip"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-microchip"></i><span>Arduino</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-wifi"></i><span>ESP32</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-mobile-screen"></i><span>Flutter</span></div>
+          <div class="skill-chip"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <div class="section-head split reveal">
+      <div>
+        <p class="label">Project Saya</p>
+        <h2 class="section-title">Beberapa project yang pernah saya kerjakan.</h2>
+        <p class="body-text">Baik untuk tugas sekolah maupun project pribadi, berikut beberapa hasil karya saya.</p>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <div class="project-thumb thumb-1"><i class="fa-solid fa-wallet"></i></div>
+        <div class="project-body">
+          <h3>Sistem Kas Kelas</h3>
+          <p>Aplikasi untuk membantu pengelolaan kas kelas dengan fitur pencatatan pembayaran siswa, pengeluaran, saldo, dan administrasi.</p>
+          <div class="tech-badges">
+            <span>Laravel</span><span>Vue.js</span><span>MySQL</span><span>REST API</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-arrow">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="link-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb thumb-2"><i class="fa-solid fa-boxes-stacked"></i></div>
+        <div class="project-body">
+          <h3>ElectroStock</h3>
+          <p>Aplikasi pengelolaan stok barang elektronik untuk membantu pencatatan inventaris, produk, dan informasi stok.</p>
+          <div class="tech-badges">
+            <span>Laravel</span><span>MySQL</span><span>Tailwind CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-arrow">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="link-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb thumb-3"><i class="fa-solid fa-desktop"></i></div>
+        <div class="project-body">
+          <h3>Sistem Kas Kelas Desktop</h3>
+          <p>Aplikasi desktop untuk pengelolaan kas kelas dengan fitur login admin dan siswa, pembayaran, pengeluaran, serta bukti transaksi.</p>
+          <div class="tech-badges">
+            <span>C#</span><span>Visual Studio</span><span>SQL Server</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-arrow">Lihat Detail <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="link-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE / EDUCATION -->
+<section class="experience" id="experience">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <p class="label">Pengalaman &amp; Pendidikan</p>
+      <h2 class="section-title">Perjalanan belajar saya hingga saat ini.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2023 — Sekarang</span>
+          <h3>SMK Tunas Harapan Pati</h3>
+          <p class="timeline-sub">Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</p>
+          <p>Mempelajari jaringan komputer, pemrograman, database, web development, sistem operasi, dan teknologi komputer.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-icon"><i class="fa-solid fa-code"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Project Based Learning</span>
+          <h3>Independent Projects</h3>
+          <p>Membangun berbagai project web dan desktop untuk mengembangkan kemampuan programming dan software development.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-icon"><i class="fa-solid fa-book-open"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Learning Journey</span>
+          <h3>Self Learning</h3>
+          <p>Mempelajari berbagai teknologi seperti Laravel, Vue.js, JavaScript, C#, MySQL, Node.js, dan teknologi lainnya melalui project dan praktik langsung.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="section-head center reveal">
+      <p class="label">Contact</p>
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="body-text">Jika ada pertanyaan, project, collaboration, atau sekadar ingin berdiskusi tentang teknologi, jangan ragu untuk menghubungi saya.</p>
+    </div>
+
+    <div class="contact-grid reveal">
+      <a href="mailto:emailkamu@example.com" class="contact-card">
+        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value">emailkamu@example.com</p>
+        </div>
+      </a>
+      <a href="#" class="contact-card">
+        <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div>
+          <p class="contact-label">WhatsApp</p>
+          <p class="contact-value">+62 812-3456-7890</p>
+        </div>
+      </a>
+      <a href="#" class="contact-card">
+        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+        <div>
+          <p class="contact-label">GitHub</p>
+          <p class="contact-value">github.com/adillanazhril</p>
+        </div>
+      </a>
+      <a href="#" class="contact-card">
+        <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+        <div>
+          <p class="contact-label">Instagram</p>
+          <p class="contact-value">@adillanazhril</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <p>© 2026 Adilla Nazhril Ahmad. All rights reserved.</p>
+    <p>Built with HTML &amp; Modern Pure CSS.</p>
+  </div>
+</footer>
+
+<a href="#home" class="back-to-top" id="backToTop" aria-label="Kembali ke atas"><i class="fa-solid fa-arrow-up"></i></a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
